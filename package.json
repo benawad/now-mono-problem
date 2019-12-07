@@ -6,7 +6,10 @@
     ]
   },
   "scripts": {
-    "postinstall": "yarn run build"
+    "postinstall": "lerna run build --scope=@jimmy/common"
   },
-  "name": "jimmy"
+  "name": "jimmy",
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
 }
