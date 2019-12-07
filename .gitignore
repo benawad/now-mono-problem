@@ -1,7 +1,6 @@
 node_modules
 .next
 .env
-dist
 tsconfig.tsbuildinfo
 .DS_Store
 *.log
