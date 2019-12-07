@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /create
+Disallow: /edit
+Disallow: /change-password
+Disallow: /check-email
+Disallow: /forgot-password

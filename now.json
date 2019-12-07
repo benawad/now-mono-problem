@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "jimmy",
+  "builds": [{ "src": "packages/web/next.config.js", "use": "@now/next" }],
+  "routes": [{ "src": "/(.*)", "dest": "/packages/web/$1", "continue": true }]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@jimmy/common",
+  "version": "1.0.64",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@types/yup": "^0.26.26",
+    "typescript": "^3.7.3"
+  }
+}
