@@ -5,5 +5,8 @@
       "packages/*"
     ]
   },
+  "scripts": {
+    "postinstall": "yarn run build"
+  },
   "name": "jimmy"
 }
